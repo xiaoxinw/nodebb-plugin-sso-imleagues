@@ -5,14 +5,14 @@
 	"url": "https://github.com/xiaoxinw/nodebb-plugin-sso-imleagues",
 	"library": "./library.js",
 	"hooks": [
-        { "hook": "static:app.load", "method": "init" },
+        	{ "hook": "static:app.load", "method": "init" },
 		{ "hook": "filter:user.delete", "method": "deleteUserData" },
 		{ "hook": "filter:auth.init", "method": "getStrategy" },
-        { "hook": "filter:admin.header.build", "method": "addMenuItem" }
+        	{ "hook": "filter:admin.header.build", "method": "addMenuItem" }
 	],
 	"templates": "./templates",
-    "scripts":[
-        "public/js/client.js"
-    ],
+    	"scripts":[
+        	"public/js/client.js"
+    	],
 	"minver": "0.5.0"
 }
