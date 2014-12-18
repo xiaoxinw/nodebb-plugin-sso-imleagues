@@ -1,0 +1,33 @@
+{
+  "name": "nodebb-plugin-sso-imleagues",
+  "version": "0.1.0",
+  "description": "IMLeaguse OAuth SSO",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoxinw/nodebb-plugin-sso-imleagues"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "oauth",
+    "oauth2",
+    "sso",
+    "single sign on",
+    "login",
+    "registration"
+  ],
+  "author": {
+    "name": "junzhe",
+    "email": "xiaoxing0514@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoxinw/nodebb-plugin-sso-imleagues/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "passport-oauth": "~1.0.0"
+  }
+}
