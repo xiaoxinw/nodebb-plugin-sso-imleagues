@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-sso-imleagues",
   "version": "0.1.0",
-  "description": "IMLeaguse OAuth SSO",
+  "description": "NodeBB IMLeaguse SSO",
   "main": "library.js",
   "repository": {
     "type": "git",
