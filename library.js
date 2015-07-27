@@ -23,13 +23,13 @@
 
     var IMLeagues={};
 
-    IMLeagues.init = function(app, middleware, controllers, callback) {
+    IMLeagues.init = function(data, callback) {
         function render(req, res, next) {
             res.render('admin/plugins/sso-imleagues', {});
         }
 
-        app.get('/admin/plugins/sso-imleagues', middleware.admin.buildHeader, render);
-        app.get('/api/admin/plugins/sso-imleagues', render);
+        data.router.get('/admin/plugins/sso-imleagues', data.middleware.admin.buildHeader, render);
+        data.router.get('/api/admin/plugins/sso-imleagues', render);
 
         callback();
     }
