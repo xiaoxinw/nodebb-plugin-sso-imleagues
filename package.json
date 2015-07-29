@@ -29,8 +29,5 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "passport-oauth": "~1.0.0"
-  },
-  "nbbpm": {
-    "compatibility": "^0.6.0"
   }
 }
