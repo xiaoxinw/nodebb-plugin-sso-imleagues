@@ -13,8 +13,5 @@
 	"templates": "./templates",
     "scripts":[
         "public/js/client.js"
-    ],
-	"nbbpm": {
-	  "compatibility": "^0.6.0"
-	}
+    ]
 }
