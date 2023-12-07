@@ -2,9 +2,9 @@
 	"use strict";
 
 
-	var User = module.parent.require('./user'),
-		meta = module.parent.require('./meta'),
-		db = module.parent.require('../src/database'),
+	var User = require.main.require('./src/user'),
+		meta = require.main.require('./src/meta'),
+		db = require.main.require('./src/database'),
 		passport = module.parent.require('passport'),
         passportIMleagues=require('passport-oauth').OAuth2Strategy,
 		fs = module.parent.require('fs'),
